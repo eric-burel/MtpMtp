@@ -1,6 +1,9 @@
 # see http://docs.vulcanjs.org/packages
 
+
 vulcan:core
+vulcan:forms
+vulcan:ui-bootstrap
 
 ############ Language Packages ############
 
@@ -20,10 +23,10 @@ accounts-password@1.5.1
 # example-forms
 
 # Note: the following example apps are not currently up to date
-
+mtp-core
 # example-movies
 # example-instagram
-example-forum
+# example-forum
 # example-customization
 # example-permissions
 # example-membership
