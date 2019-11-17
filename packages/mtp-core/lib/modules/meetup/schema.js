@@ -14,19 +14,19 @@ const schema = {
       return new Date();
     }
   },
-  // userId: {
-  //   type: String,
-  //   optional: true,
-  //   canRead: ['guests'],
-  //   resolveAs: {
-  //     fieldName: 'user',
-  //     type: 'User',
-  //     resolver: (movie, args, context) => {
-  //       return context.Users.findOne({ _id: movie.userId }, { fields: context.Users.getViewableFields(context.currentUser, context.Users) });
-  //     },
-  //     addOriginalField: true
-  //   }
-  // },
+  userId: {
+    type: String,
+    optional: true,
+    canRead: ['guests'],
+    resolveAs: {
+      fieldName: 'user',
+      type: 'User',
+      resolver: (movie, args, context) => {
+        return context.Users.findOne({ _id: movie.userId }, { fields: context.Users.getViewableFields(context.currentUser, context.Users) });
+      },
+      addOriginalField: true
+    }
+  },
   place: {
     type: String,
     optional: false,

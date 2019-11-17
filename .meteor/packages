@@ -4,6 +4,7 @@
 vulcan:core
 vulcan:forms
 vulcan:ui-bootstrap
+vulcan:accounts
 
 ############ Language Packages ############
 
