@@ -35,7 +35,6 @@ const schema = {
     canUpdate: ['guests']
   },
   date: {
-    filterable: true,
     type: Date,
     optional: false,
     canRead: ['guests'],
