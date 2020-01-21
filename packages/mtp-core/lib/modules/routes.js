@@ -3,7 +3,7 @@ import MeetupCreation from '../components/MeetupCreation';
 import MeetupList from '../components/MeetupList'
 import MeetupAdminList from '../components/MeetupAdminList'
 
-addRoute({ name: 'Home', path: '/admin/list', component: MeetupAdminList })
+addRoute({ name: 'Home', path: '/', component: MeetupAdminList })
 addRoute({ name: 'create', path: '/create', component: MeetupCreation })
 addRoute({ name: 'list', path: '/list', component: MeetupList })
 addRoute({ name: 'admin-list', path: '/admin/list', component: MeetupAdminList })
