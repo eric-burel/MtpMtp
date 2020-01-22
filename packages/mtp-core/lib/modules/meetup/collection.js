@@ -9,8 +9,8 @@ const Meetups = createCollection({
   // resolvers: yourCustomResolvers // null to disable default resolvers generation
   // mutations: yourCustomMutations // null to disable default mutations generation
   permissions: {
-    canRead: ['guests', 'members'],
-    canCreate: ['members'],
+    canRead: ['guests', 'members', 'admins'],
+    canCreate: ['members', 'admins'],
     canUpdate: ['owners', 'admins'],
     canDelete: ['owners', 'admins']
   },
